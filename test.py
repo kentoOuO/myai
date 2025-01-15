@@ -4,7 +4,6 @@ from flask_cors import CORS
 import os
 os.environ["HTTP_PROXY"] = "127.0.0.1:7897"
 os.environ["HTTPS_PROXY"] = "127.0.0.1:7897"
-os.environ["OPENAI_API_KEY"] = "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"
 
 # 初始化 Flask 应用
 app = Flask(__name__)
